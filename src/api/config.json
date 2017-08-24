@@ -1,13 +1,14 @@
 {
-    "port": 15675,
-    "path": "ws",
+    "host": "q.cmmc.io",
+    "port": 59001,
+    "path": "mqtt",
     "ssl": false,
 
     "user": "guest",
     "pass": "guest",
 
     "subscribe": [
-        "Test"
+        "MARU/#"
     ],
     "publish": [
         "Test"
